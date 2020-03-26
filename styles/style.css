@@ -17,13 +17,15 @@
 
 .top_logo {
   width: 150px;
-  margin: 2px 30px 5px 30px;
+  padding: 2px 30px 5px 30px;
 }
 
 .section1 {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
 }
 .nav_bar_ul {
   list-style: none;
@@ -41,7 +43,7 @@ ul {
 }
 
 li {
-  margin: 5px;
+  padding: 5px;
 }
 
 h1,
@@ -62,13 +64,13 @@ h1 {
 
 .bigdiv3 {
   width: 80%;
-  background-color: violet;
+  height: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .bigdiv3 img {
-  height: 10%;
+  height: 30%;
 }
 
 .underline {
